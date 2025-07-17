@@ -1,5 +1,5 @@
 import { v4 as uuidV4 } from "uuid";
-import { CreateUserRepository } from "../repositorio/user";
+import { CreateUserRepository } from "../repositorio/user.js";
 
 export class CreateUserUseCase {
   async execute(createUserParams) {

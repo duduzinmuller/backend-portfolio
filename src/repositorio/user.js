@@ -8,8 +8,9 @@ export class CreateUserRepository {
       data: {
         id: createUserParams.id,
         name: createUserParams.name,
+        email: createUserParams.email,
         subject: createUserParams.subject,
-        messages: createUserParams.messages,
+        message: createUserParams.message,
       },
     });
 
