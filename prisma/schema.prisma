@@ -16,7 +16,9 @@ datasource db {
 model User{
   id String @id @default(uuid())
   name String
+  email String
   subject String
+  message String?
   messages    Message[] @relation("UserMessages") 
 }
 
